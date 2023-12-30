@@ -14,6 +14,7 @@ This repository houses a collection of automation scripts designed to streamline
 
 ## Usage
 
+### Web Servers
 - Clone the Repository 
 
 ```shell
@@ -21,13 +22,13 @@ git clone https://github.com/ramizaly/Nginx-Automation.git
 cd Nginx-Automation/Your-Operating-System
 ```
 
-### For HTTP
+#### For HTTP
 ```shell
 chmod +x static-site-HTTP.sh
 ./static-site-HTTP.sh "<Website-Dir> <Domain-Name>"
 ```
 
-### For HTTPS
+#### For HTTPS
 ```shell
 chmod +x static-site-HTTPS.sh
 ./static-site-HTTPS.sh "<Website-Dir> <Domain-Name> <Certificate-File> <Private-Key-File>"
